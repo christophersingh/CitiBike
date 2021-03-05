@@ -12,8 +12,8 @@ class DBConnect:
     def connect(self):
         cnx = None
 
-        cnx = mysql.connector.connect(user='root', password='Chris@164',
-                                          host='localhost',
+        cnx = mysql.connector.connect(user='', password='',
+                                          host='',
                                           database=self.dbname)
         if cnx.is_connected:
             pass
